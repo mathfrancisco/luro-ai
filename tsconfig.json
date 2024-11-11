@@ -21,6 +21,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../../../AppData/Local/JetBrains/IntelliJIdea2024.1/javascript/typings/node/22.9.0/node_modules/@types/node/globals.d.ts",
+    "../../../AppData/Local/JetBrains/IntelliJIdea2024.1/javascript/typings/node/22.9.0/node_modules/@types/node/globals.d.ts",
+    "../../../AppData/Local/JetBrains/IntelliJIdea2024.1/javascript/typings/node/22.9.0/node_modules/@types/node/globals.d.ts"
+  ],
   "exclude": ["node_modules"]
 }

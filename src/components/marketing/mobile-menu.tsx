@@ -51,7 +51,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             How it works
                         </Link>
                     </li>
-                    <Accordion type="single" collapsible className="w-full">
+                    <Accordion type="single"  className="w-full">
                         <AccordionItem value="item-1" className="border-transparent">
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
                                 <span className="flex items-center">
@@ -105,7 +105,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             Integrations
                         </Link>
                     </li>
-                    <Accordion type="single" collapsible className="w-full">
+                    <Accordion type="single"  className="w-full">
                         <AccordionItem value="item-1" className="border-transparent">
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
                                 <span className="flex items-center">
